@@ -6,3 +6,4 @@ USER main
 RUN conda install -c conda-forge python-stratify matplotlib=1.5.3
 WORKDIR $HOME/notebooks
 RUN rm -rf stratify
+RUN python -c "import matplotlib"
